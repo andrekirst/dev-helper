@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{D2E60F18-BFFE-45DA-8E03-71A9EA902F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries.MediatR", "MediatR\Libraries.MediatR.csproj", "{0A764915-E502-453E-989A-E5C400A5BF4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{43A55CC9-CF31-4A4E-AD27-FB17054DD791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain.Timetracking", "Domain.Timetracking", "{506DE06E-DD8B-4732-BAB4-FAE7D843A355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Timetracking.Contracts", "Domain.Timetracking.Contracts\Domain.Timetracking.Contracts.csproj", "{078E2790-F71B-48B4-936E-9AFB59AF68E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A764915-E502-453E-989A-E5C400A5BF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A764915-E502-453E-989A-E5C400A5BF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A764915-E502-453E-989A-E5C400A5BF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A764915-E502-453E-989A-E5C400A5BF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078E2790-F71B-48B4-936E-9AFB59AF68E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078E2790-F71B-48B4-936E-9AFB59AF68E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078E2790-F71B-48B4-936E-9AFB59AF68E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078E2790-F71B-48B4-936E-9AFB59AF68E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A764915-E502-453E-989A-E5C400A5BF4A} = {D2E60F18-BFFE-45DA-8E03-71A9EA902F5E}
+		{506DE06E-DD8B-4732-BAB4-FAE7D843A355} = {43A55CC9-CF31-4A4E-AD27-FB17054DD791}
+		{078E2790-F71B-48B4-936E-9AFB59AF68E7} = {506DE06E-DD8B-4732-BAB4-FAE7D843A355}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1FE243B-49B5-47EE-BD62-6328CB2320A3}
+	EndGlobalSection
+EndGlobal
